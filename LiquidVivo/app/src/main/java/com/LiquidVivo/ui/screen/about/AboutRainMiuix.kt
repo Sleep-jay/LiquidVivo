@@ -151,7 +151,8 @@ fun AboutRainMiuix(onBack: () -> Unit) {
                     onClick = { openLink(context, AUTHOR_URL) })
                 ArrowPreference(title = stringResource(R.string.about_link_repository), summary = "",
                     onClick = { openLink(context, REPO_URL) })
-                ArrowPreference(title = stringResource(R.string.about_link_telegram), summary = "", onClick = { })
+                ArrowPreference(title = stringResource(R.string.about_link_telegram), summary = "",
+                    onClick = { openLink(context, TELEGRAM_URL) })
             }
         }
 
@@ -204,7 +205,8 @@ private fun Disclaimer(resId: Int) {
 }
 
 private const val AUTHOR_URL = "https://www.coolapk.com/u/37362267"
-private const val REPO_URL = "https://github.com/LuZe0y"
+private const val REPO_URL = "https://github.com/Sleep-jay/LiquidVivo"
+private const val TELEGRAM_URL = "https://t.me/LiquidVivo"
 
 private fun openLink(context: Context, url: String) {
     runCatching {

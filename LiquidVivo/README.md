@@ -1,6 +1,6 @@
 # Xposed 模块模板（Miuix 管理器）
 
-当前正式版本：**LiquidVivo 1.7.3（versionCode 49）**。发布记录见仓库根目录的 `RELEASE_NOTES.md`。
+当前正式版本：**LiquidVivo 1.7.4（versionCode 50）**。发布记录见仓库根目录的 `RELEASE_NOTES.md`。
 
 基于 libxposed API 102 的 Xposed 模块模板：APK 既是 Xposed 模块（被框架加载执行 Hook），又自带 Miuix 风格管理器界面（作用域管理 / 主题设置 / Hook 管理页）。
 

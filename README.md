@@ -4,8 +4,8 @@ LiquidVivo 是一个面向 vivo OriginOS 的 libxposed 模块和配套管理器�
 
 ## 当前版本
 
-- 版本：`1.7.3`
-- versionCode：`49`
+- 版本：`1.7.4`
+- versionCode：`50`
 - applicationId：`com.LiquidVivo`
 - libxposed API：`102`
 - 最低 Android 版本：Android 9（API 28）

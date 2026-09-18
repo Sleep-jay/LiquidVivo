@@ -247,7 +247,7 @@
     <string name="about_feature_scope_summary">Read, grant or revoke LSPosed scope here without bouncing between two apps.</string>
     <string name="about_lib_summary">%1$s · %2$s</string>
     <string name="about_link_author">Author: Coolapk@猫儿这个可爱</string>
-    <string name="about_link_repository">Repository</string>
+    <string name="about_link_repository">Project repository</string>
     <string name="about_link_telegram">Release Channel</string>
     <string name="about_link_telegram_summary"></string>
     <string name="about_link_failed">No app is available to open this link</string>

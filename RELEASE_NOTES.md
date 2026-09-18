@@ -18,3 +18,11 @@ From `LiquidVivo/`:
 ```
 
 For a signed release build, provide `KEYSTORE_FILE`, `KEYSTORE_PASSWORD`, `KEY_ALIAS`, and `KEY_PASSWORD` through the local Gradle properties or environment used by the signing plugin.
+
+# LiquidVivo 1.7.4
+
+Release date: 2026-09-19
+
+- The About page now opens the LiquidVivo Telegram channel.
+- The About page repository link now points to `Sleep-jay/LiquidVivo`.
+- Version code increased to `50`.

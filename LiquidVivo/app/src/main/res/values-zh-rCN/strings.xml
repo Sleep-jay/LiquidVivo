@@ -245,7 +245,7 @@
     <string name="about_feature_scope_summary">可直接读取、授予或撤销 LSPosed 作用域，不必在两个应用之间来回折返。</string>
     <string name="about_lib_summary">%1$s · %2$s</string>
     <string name="about_link_author">作者：酷安@猫儿这个可爱</string>
-    <string name="about_link_repository">作者仓库</string>
+    <string name="about_link_repository">项目仓库</string>
     <string name="about_link_telegram">发布频道</string>
     <string name="about_link_telegram_summary"></string>
     <string name="about_link_failed">没有可以打开此链接的应用</string>
