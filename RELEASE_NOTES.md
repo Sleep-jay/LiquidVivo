@@ -11,7 +11,7 @@ Release date: 2026-09-18
 
 ## Build
 
-From `FucVivo-hooker/`:
+From `LiquidVivo/`:
 
 ```powershell
 ./gradlew.bat :app:assembleDebug --no-daemon

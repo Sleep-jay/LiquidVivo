@@ -1,0 +1,21 @@
+*.iml
+.gradle/
+/local.properties
+/.idea/
+.DS_Store
+/build/
+*/build/
+/captures
+.externalNativeBuild
+.cxx
+*.keystore
+*.jks
+.kotlin/
+
+# Local release artifacts and diagnostics
+*.apk
+*.aab
+*.log
+/.gradle-local/
+/SystemUI/
+/Updater/
