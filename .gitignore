@@ -1,2 +1,12 @@
 tools/
 rom-dumps/
+
+# Local build outputs and diagnostics
+*.apk
+*.aab
+*.log
+FucVivo-hooker/.gradle-local/
+FucVivo-hooker/.kotlin/
+FucVivo-hooker/build/
+FucVivo-hooker/app/build/
+FucVivo-hooker/local.properties

@@ -19,18 +19,18 @@
     </queries>
 
     <application
-        android:name=".FucVivoApplication"
+        android:name=".LiquidVivoApplication"
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        android:theme="@style/Theme.FucVivo">
+        android:theme="@style/Theme.LiquidVivo">
         <activity
             android:name=".ui.MainActivity"
             android:exported="true"
-            android:theme="@style/Theme.FucVivo"
+            android:theme="@style/Theme.LiquidVivo"
             android:windowSoftInputMode="adjustResize">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

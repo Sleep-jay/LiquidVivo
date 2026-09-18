@@ -1,8 +1,10 @@
 # Xposed 模块模板（Miuix 管理器）
 
+当前正式版本：**LiquidVivo 1.7.3（versionCode 49）**。发布记录见仓库根目录的 `RELEASE_NOTES.md`。
+
 基于 libxposed API 102 的 Xposed 模块模板：APK 既是 Xposed 模块（被框架加载执行 Hook），又自带 Miuix 风格管理器界面（作用域管理 / 主题设置 / Hook 管理页）。
 
-- 包名：`com.FucVivo`（fork 自 KernelSU 管理器 UI 骨架，已清除全部 KSU 逻辑，仅保留 Miuix 界面层）
+- 包名：`com.LiquidVivo`（fork 自 KernelSU 管理器 UI 骨架，已清除全部 KSU 逻辑，仅保留 Miuix 界面层）
 - UI：Miuix KMP 0.9.3（miuix-ui / icons / preference / blur / navigation3）
 - Hook 框架：libxposed API 102（`api` compileOnly 由框架注入，`service` implementation 打进 APK 用于作用域申请）
 - 导航：androidx navigation3 + Miuix 集成
@@ -12,7 +14,7 @@
 ## 一、目录结构规则
 
 ```
-app/src/main/java/com/FucVivo/
+app/src/main/java/com/LiquidVivo/
 ├── MainActivity.kt            # 唯一 Activity：NavDisplay 路由表 + 三标签底栏宿主
 ├── Natives.kt                 # 原生能力存根（最小集，禁止再长回 KSU 形态）
 ├── data/
@@ -111,7 +113,7 @@ Scaffold(
 
 | 文件 | 内容 |
 |---|---|
-| `java_init.list` | 入口类全限定名，单行（当前 `com.FucVivo.xposed.HookEntry`） |
+| `java_init.list` | 入口类全限定名，单行（当前 `com.LiquidVivo.xposed.HookEntry`） |
 | `scope.list` | 建议作用域包名，一行一个 |
 | `module.prop` | 模块元数据（名称/版本/API 级别） |
 

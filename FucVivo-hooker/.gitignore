@@ -11,10 +11,11 @@
 *.keystore
 *.jks
 .kotlin/
-.gradle-local/
-/rom-dumps/
-/SystemUI/
-/Updater/
+
+# Local release artifacts and diagnostics
 *.apk
 *.aab
-*.ap_
+*.log
+/.gradle-local/
+/SystemUI/
+/Updater/

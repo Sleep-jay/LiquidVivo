@@ -18,5 +18,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "FucVivo"
+rootProject.name = "LiquidVivo"
 include(":app")
