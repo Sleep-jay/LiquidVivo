@@ -100,6 +100,16 @@ KEY_PASSWORD
 
 参见 [`RELEASE_NOTES.md`](RELEASE_NOTES.md)。
 
+## 赞助与建议
+
+如果 LiquidVivo 对你有帮助，欢迎通过下面的二维码赞助。赞助将用于设备测试、功能建议验证和加速后续开发。
+
+| 支付宝 | 微信支付 |
+| --- | --- |
+| ![支付宝赞助二维码](docs/sponsor/alipay.jpg) | ![微信支付赞助二维码](docs/sponsor/wechat.jpg) |
+
+功能建议和问题反馈可以提交到 [GitHub Issues](https://github.com/Sleep-jay/LiquidVivo/issues)。
+
 ## 许可证
 
-当前仓库尚未指定开源许可证。
+本项目使用 [MIT License](LICENSE) 开源。
