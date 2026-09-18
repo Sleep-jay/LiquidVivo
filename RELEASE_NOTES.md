@@ -21,7 +21,7 @@ For a signed release build, provide `KEYSTORE_FILE`, `KEYSTORE_PASSWORD`, `KEY_A
 
 # LiquidVivo 1.7.4
 
-Release date: 2026-09-19
+Release date: 2026-09-18
 
 - The About page now opens the LiquidVivo Telegram channel.
 - The About page repository link now points to `Sleep-jay/LiquidVivo`.
