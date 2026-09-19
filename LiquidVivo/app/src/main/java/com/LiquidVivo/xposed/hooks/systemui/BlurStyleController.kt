@@ -629,7 +629,9 @@ object BlurStyleController {
         if (facadeAlpha) mounted += "View.setMaterialAlpha"
 
         val facadeRadius = hookFloat(module, viewClass, "setMaterialBlurRadius") { v, scene ->
-            glassRadius(v, scene)
+            // Runtime radius updates include collapse animation frames: preserve the
+            // continuous fade to zero instead of applying the static glass minimum.
+            v * radiusScaleOf(scene)
         }
         if (facadeRadius) mounted += "View.setMaterialBlurRadius"
 
@@ -675,10 +677,10 @@ object BlurStyleController {
         }
         if (!facadeRadius) {
             for (c in candidates) {
-                if (hookFloat(module, c, "setBlurRadius") { v, scene -> glassRadius(v, scene) }) {
+                if (hookFloat(module, c, "setBlurRadius") { v, scene -> v * radiusScaleOf(scene) }) {
                     mounted += "${c.simpleName}.setBlurRadius"
                 }
-                if (hookFloat(module, c, "setWindowBlurRadius") { v, scene -> glassRadius(v, scene) }) {
+                if (hookFloat(module, c, "setWindowBlurRadius") { v, scene -> v * radiusScaleOf(scene) }) {
                     mounted += "${c.simpleName}.setWindowBlurRadius"
                 }
             }

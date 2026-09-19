@@ -1,3 +1,14 @@
+# LiquidVivo 1.7.5
+
+Release date: 2026-09-19
+
+## Blur collapse flash fix
+
+- Fixes the full-screen flash that could appear when swiping up to close Control Center or Notification Center.
+- Keeps runtime blur-radius animation frames continuous, including the final zero-radius frame.
+- Prevents the static liquid-glass minimum radius from being applied to dynamic panel collapse animations.
+- Version code increased to `51`.
+
 # LiquidVivo 1.7.3
 
 Release date: 2026-09-18
